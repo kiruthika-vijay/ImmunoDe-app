@@ -1,0 +1,69 @@
+{
+  "project_info": {
+    "project_number": "726900955844",
+    "firebase_url": "https://immunode-1f7b4-default-rtdb.firebaseio.com",
+    "project_id": "immunode-1f7b4",
+    "storage_bucket": "immunode-1f7b4.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:726900955844:android:3da5478b4a15a45df6c791",
+        "android_client_info": {
+          "package_name": "com.adityasubathu.vaccinationreminder"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "726900955844-101rnqchr69e2p5pgeemo4q9vq7okmem.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyADp8hCCG_4JjNLFpd3B20aVyP7szNyVTs"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": [
+            {
+              "client_id": "726900955844-101rnqchr69e2p5pgeemo4q9vq7okmem.apps.googleusercontent.com",
+              "client_type": 3
+            }
+          ]
+        }
+      }
+    },
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:726900955844:android:c33e3c9e2f8e3ee7f6c791",
+        "android_client_info": {
+          "package_name": "com.example.immunode"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "726900955844-101rnqchr69e2p5pgeemo4q9vq7okmem.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyADp8hCCG_4JjNLFpd3B20aVyP7szNyVTs"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": [
+            {
+              "client_id": "726900955844-101rnqchr69e2p5pgeemo4q9vq7okmem.apps.googleusercontent.com",
+              "client_type": 3
+            }
+          ]
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}

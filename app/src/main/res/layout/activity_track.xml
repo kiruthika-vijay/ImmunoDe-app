@@ -1,0 +1,502 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".TrackActivity">
+    <ScrollView
+        android:layout_width="match_parent"
+        android:layout_height="match_parent">
+    <LinearLayout 
+        xmlns:android="http://schemas.android.com/apk/res/android"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="vertical">
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="Vaccine Tracker - SCHEDULED"
+        android:textSize="20sp"
+        android:textStyle="bold"
+        android:background="#FFC6CCFF"
+        android:gravity="center_horizontal"
+        android:padding="15dp" />
+
+        <TextView
+            android:id="@+id/atbirth"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:textSize="20sp"
+            android:padding="10dp"
+            android:textStyle="bold"
+            android:textColor="@color/black"
+            android:background="#FFF7F8FF"
+            android:text="At Birth"/>
+
+        <LinearLayout
+            android:id="@+id/checkbox1"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:orientation="vertical"
+            android:layout_marginLeft="40dp">
+
+            <CheckBox
+                android:id="@+id/bcg"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text="Bacillus Calmette–Guérin (BCG)"/>
+
+            <CheckBox
+                android:id="@+id/opv"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text="Oral polio vaccine (OPV 0)"/>
+
+            <CheckBox
+                android:id="@+id/hepb1"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text="Hepatitis B (Hep – B1)"/>
+        </LinearLayout>
+        <TextView
+            android:id="@+id/sixweek"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:textSize="20sp"
+            android:padding="10dp"
+            android:textStyle="bold"
+            android:textColor="@color/black"
+            android:background="#FFF7F8FF"
+            android:text="6 weeks"/>
+
+        <LinearLayout
+            android:id="@+id/checkbox2"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:orientation="vertical"
+            android:layout_marginLeft="40dp">
+
+            <CheckBox
+                android:id="@+id/dtp1"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text="Diptheria, Tetanus and Pertussis vaccine (DTP 1)"/>
+
+            <CheckBox
+                android:id="@+id/ipv1"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text="Inactivated polio vaccine (IPV** 1)"/>
+
+            <CheckBox
+                android:id="@+id/hepb2"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text="Hepatitis B  (Hep – B2)"/>
+
+            <CheckBox
+                android:id="@+id/hib1"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text="Haemophilus influenzae type B (Hib 1)"/>
+
+            <CheckBox
+                android:id="@+id/rv1"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text="Rotavirus 1"/>
+
+            <CheckBox
+                android:id="@+id/pcv1"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text="Pneumococcal conjugate vaccine (PCV 1)"/>
+        </LinearLayout>
+        <TextView
+            android:id="@+id/tenweek"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:textSize="20sp"
+            android:padding="10dp"
+            android:textStyle="bold"
+            android:textColor="@color/black"
+            android:background="#FFF7F8FF"
+            android:text="10 weeks"/>
+
+        <LinearLayout
+            android:id="@+id/checkbox3"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:orientation="vertical"
+            android:layout_marginLeft="40dp">
+
+            <CheckBox
+                android:id="@+id/dtp2"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text="Diptheria, Tetanus and Pertussis vaccine (DTP 2)"/>
+
+            <CheckBox
+                android:id="@+id/hib2"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text="Haemophilus influenzae type B (Hib 2)"/>
+
+
+            <CheckBox
+                android:id="@+id/ipv2"
+                android:layout_width="match_parent"
+                android:layout_height="32dp"
+                android:text="Inactivated polio vaccine (IPV** 2)"/>
+
+            <CheckBox
+                android:id="@+id/hepb3"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text="Hepatitis B  (Hep – B3)"/>
+
+            <CheckBox
+                android:id="@+id/rv2"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text="Rotavirus 2"/>
+
+            <CheckBox
+                android:id="@+id/pcv2"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text="Pneumococcal conjugate vaccine (PCV 2)"/>
+        </LinearLayout>
+        <TextView
+            android:id="@+id/frtnweek"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:textSize="20sp"
+            android:padding="10dp"
+            android:textStyle="bold"
+            android:textColor="@color/black"
+            android:background="#FFF7F8FF"
+            android:text="14 weeks"/>
+
+        <LinearLayout
+            android:id="@+id/checkbox4"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:orientation="vertical"
+            android:layout_marginLeft="40dp">
+
+            <CheckBox
+                android:id="@+id/dtp3"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text="Diptheria, Tetanus and Pertussis vaccine (DTP 3)"/>
+
+            <CheckBox
+                android:id="@+id/hib3"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text="Haemophilus influenzae type B (Hib 3)"/>
+
+            <CheckBox
+                android:id="@+id/ipv3"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text="Inactivated polio vaccine (IPV** 3)"/>
+
+            <CheckBox
+                android:id="@+id/hepb4"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text="Hepatitis B  (Hep* – B4)"/>
+
+            <CheckBox
+                android:id="@+id/rv3"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text="Rotavirus 3"/>
+
+            <CheckBox
+                android:id="@+id/pcv3"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text="Pneumococcal conjugate vaccine (PCV 3)"/>
+
+        </LinearLayout>
+        <TextView
+            android:id="@+id/sixmnths"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:textSize="20sp"
+            android:padding="10dp"
+            android:textStyle="bold"
+            android:textColor="@color/black"
+            android:background="#FFF7F8FF"
+            android:text="6 months"/>
+
+        <LinearLayout
+            android:id="@+id/checkbox5"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:orientation="vertical"
+            android:layout_marginLeft="40dp">
+
+            <CheckBox
+                android:id="@+id/tcv"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text="Typhoid Conjugate Vaccine (TCV#)"/>
+
+        </LinearLayout>
+        <TextView
+            android:id="@+id/ninemnths"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:textSize="20sp"
+            android:padding="10dp"
+            android:textStyle="bold"
+            android:textColor="@color/black"
+            android:background="#FFF7F8FF"
+            android:text="9 months"/>
+
+        <LinearLayout
+            android:id="@+id/checkbox6"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:orientation="vertical"
+            android:layout_marginLeft="40dp">
+
+            <CheckBox
+                android:id="@+id/mmr1"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text="Measles, Mumps, and Rubella (MMR – 1)"/>
+
+        </LinearLayout>
+        <TextView
+            android:id="@+id/twlvmnths"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:textSize="20sp"
+            android:padding="10dp"
+            android:textStyle="bold"
+            android:textColor="@color/black"
+            android:background="#FFF7F8FF"
+            android:text="12 months"/>
+
+        <LinearLayout
+            android:id="@+id/checkbox7"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:orientation="vertical"
+            android:layout_marginLeft="40dp">
+
+            <CheckBox
+            android:id="@+id/hepa1"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="Hepatitis A (Hep – A1)"/>
+            <CheckBox
+                android:id="@+id/influenza"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text="Influenza (Yearly)"/>
+
+        </LinearLayout>
+        <TextView
+            android:id="@+id/fiftnmnths"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:textSize="20sp"
+            android:padding="10dp"
+            android:textStyle="bold"
+            android:textColor="@color/black"
+            android:background="#FFF7F8FF"
+            android:text="15 months"/>
+
+        <LinearLayout
+            android:id="@+id/checkbox8"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:orientation="vertical"
+            android:layout_marginLeft="40dp">
+
+            <CheckBox
+                android:id="@+id/mmr2"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text="Measles, Mumps, and Rubella (MMR 2)"/>
+            <CheckBox
+                android:id="@+id/varicella"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text="Varicella 1"/>
+            <CheckBox
+                android:id="@+id/influenza2"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text="Influenza (Yearly)"/>
+            <CheckBox
+                android:id="@+id/pvcb"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text="PCV booster 1"/>
+
+        </LinearLayout>
+        <TextView
+            android:id="@+id/sixeightnmnths"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:textSize="25sp"
+            android:padding="10dp"
+            android:textStyle="bold"
+            android:textColor="@color/black"
+            android:background="#FFF7F8FF"
+            android:text="16-18 months"/>
+
+        <LinearLayout
+            android:id="@+id/checkbox9"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:orientation="vertical"
+            android:layout_marginLeft="40dp">
+
+            <CheckBox
+                android:id="@+id/dtpb1"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text="Diphtheria, Perussis, and Tetanus (DTP B1)"/>
+            <CheckBox
+                android:id="@+id/ipvb1"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text="Inactivated polio vaccine (IPV*** B1)"/>
+            <CheckBox
+                android:id="@+id/hepa2"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text="Hepatitis A (Hep – A2*****)"/>
+            <CheckBox
+                android:id="@+id/hibb1"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text="Haemophilus influenzae type B (Hib B1)"/>
+
+        </LinearLayout>
+        <TextView
+            android:id="@+id/foursixyrs"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:textSize="25sp"
+            android:padding="10dp"
+            android:textStyle="bold"
+            android:textColor="@color/black"
+            android:background="#FFF7F8FF"
+            android:text="4-6 years"/>
+
+        <LinearLayout
+            android:id="@+id/checkbox10"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:orientation="vertical"
+            android:layout_marginLeft="40dp">
+
+            <CheckBox
+                android:id="@+id/dtpb2"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text="Diphtheria, Perussis, and Tetanus (DTP B2)"/>
+            <CheckBox
+                android:id="@+id/varicella2"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text="Varicella 2"/>
+            <CheckBox
+                android:id="@+id/mmrv"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text="Measles, Mumps, and Rubella (MMR 3/MMRV)"/>
+
+        </LinearLayout>
+        <TextView
+            android:id="@+id/ninefrtnyrs"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:textSize="25sp"
+            android:padding="10dp"
+            android:textStyle="bold"
+            android:textColor="@color/black"
+            android:background="#FFF7F8FF"
+            android:text="9-14 years"/>
+
+        <LinearLayout
+            android:id="@+id/checkbox11"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:orientation="vertical"
+            android:layout_marginLeft="40dp">
+
+            <CheckBox
+                android:id="@+id/Tdap"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text="Tdap"/>
+            <CheckBox
+                android:id="@+id/hpv12"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text="Human Papilloma Virus (HPV 1 and 2)"/>
+
+        </LinearLayout>
+        <TextView
+            android:id="@+id/fiftneightnyrs"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:textSize="25sp"
+            android:padding="10dp"
+            android:textStyle="bold"
+            android:textColor="@color/black"
+            android:background="#FFF7F8FF"
+            android:text="15-18 years"/>
+
+        <LinearLayout
+            android:id="@+id/checkbox12"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:orientation="vertical"
+            android:layout_marginBottom="140dp"
+            android:layout_marginLeft="40dp">
+
+            <CheckBox
+                android:id="@+id/Tdap1"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text="Tdap"/>
+            <CheckBox
+                android:id="@+id/hpv123"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text="Human Papilloma Virus (HPV 1,2 and 3)"/>
+
+        </LinearLayout>
+    </LinearLayout>
+    </ScrollView>
+    <com.google.android.material.bottomnavigation.BottomNavigationView
+        android:id="@+id/bottomNavigation"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_alignParentBottom="true"
+        android:layout_marginBottom="30dp"
+        android:layout_marginEnd="30dp"
+        android:layout_marginStart="30dp"
+        android:layout_marginTop="30dp"
+        android:background="@drawable/bottom_background"
+        android:elevation="2dp"
+        app:itemIconSize="30dp"
+        app:itemIconTint="@drawable/item_selector"
+        app:itemRippleColor="@android:color/transparent"
+        app:labelVisibilityMode="unlabeled"
+        app:menu="@menu/bottom_menu"
+        tools:ignore="MissingConstraints" />
+</RelativeLayout>

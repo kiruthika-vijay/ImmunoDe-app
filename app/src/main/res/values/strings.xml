@@ -1,0 +1,198 @@
+<resources>
+    <string name="app_name">ImmunoDe</string>
+    <!-- TODO: Remove or change this placeholder text -->
+    <string name="hello_blank_fragment">Hello blank fragment</string>
+    <string name="Home">Home</string>
+    <string name="Remainder">Remainder</string>
+    <string name="Schedule">Schedule</string>
+    <string name="Notification">Notification</string>
+    //Hepatitis B
+
+    <string name="HepatitisB">Hepatitis B(HepB)
+    \n3 Dose
+</string>
+    <string name="HepatitisBDesc">
+    \nbirth - 1st dose
+    \n1-2 months- 2nd dose
+    \n6-18 months -3rd dose
+</string>
+
+    //Rotavirus
+
+    <string name="Rotavirus">Rotavirus(RV)
+   \nRV1 (2-dose series)
+    \nRV5 (3-dose series)
+</string>
+
+    <string name="RotavirusDesc">
+    \n2nd month- 1st dose
+    \n4th month - 2nd dose
+    \n6th month -3rd dose
+</string>
+
+    //Diphtheria, tetanus, acellular pertussis
+
+    <string name="Diphtheriatetanusacellularpertussis">Diphtheria, tetanus, acellular pertussis
+(DTaP)
+\n5 Dose</string>
+    <string name="DiphtheriatetanusacellularpertussisDesc">
+    \n2nd month- 1st dose
+    \n4th month - 2nd dose
+    \n6th month -3rd dose
+    \n15-18 month -4th dose
+    \n 4-6 years -5th dose
+
+</string>
+    //Haemophilus influenzae type b
+
+    <string name="Haemophilusinfluenzaetypeb"> Haemophilus influenzae type b
+  \n3 or 4 Dose
+</string>
+    <string name="HaemophilusinfluenzaetypebDesc">3 or 4-dose series
+    \n2nd month- 1st dose
+    \n4th month - 2nd dose
+    \n6th month -3rd dose
+    \n12-15 months -4th dose(booster dose)
+    \n (OR)
+    \n2nd month- 1st dose
+    \n4th month - 2nd dose
+    \n12-15 months -3rd dose
+
+</string>
+
+    //Pneumococcal conjugate
+
+    <string name="pneumococcalconjugate">pneumococcal conjugate(PCV13,PCV15)
+        \n4 Dose
+    </string>
+    <string name="pneumococcalconjugateDesc">
+    \n2nd month- 1st dose
+    \n4th month - 2nd dose
+    \n6th month -3rd dose
+    \n12-15 months -4th dose
+   </string>
+
+    //Inactivated poliovirus
+
+    <string name="Inactivatedpoliovirus">Inactivated poliovirus(IPV)
+    \n4 Dose
+</string>
+    <string name="InactivatedpoliovirusDesc">
+     \n2nd month- 1st dose
+    \n4th month - 2nd dose
+    \n6-18 months -3rd dose
+    \n4-6 years - 4th dose
+</string>
+
+    //COVID-19
+
+    <string name="COVID19">COVID-19
+        \n2 0r 3 dose
+    </string>
+    <string name="COVID19Desc">
+    \n6 months–4 years: 2-dose series at 0, 4-8 weeks (Moderna) or 3-dose series at 0, 3-8, 11-16 weeks (Pfizer-BioNTech)
+    \n5–11 years: 2-dose series at 0, 4-8 weeks (Moderna) or 2-dose series at 0, 3-8 weeks (Pfizer-BioNTech)
+    \n12–18 years: 2-dose series at 0, 4-8 weeks (Moderna) or 2-dose series at 0, 3-8 weeks (Novavax, Pfizer-BioNTech)
+
+</string>
+    //Influenza
+
+    <string name="Influenza">Influenza(IIV4) or (LAIV4)
+    \nAnnual dose
+</string>
+    <string name="InfluenzaDesc">
+     \nAnnual dose
+     \n6-15 months- 1 or 2 doses
+     \1-10years- 1 or 2 doses
+     \n11-18 years- 1 or 2 doses
+     \n OR
+     \n2-10years- annual 1or2dose
+     \n11-18years- annual 1 dose
+
+</string>
+    //Measles, mumps, rubella
+
+    <string name="Measlesmumpsrubella">Measles,mumps,rubella(MMR\MMRV)
+    \n1 dose
+</string>
+    <string name="MeaslesmumpsrubellaDesc">
+    \n12-15 months -1st dose
+</string>
+
+    //Varicella
+
+    <string name="Varicella">Varicella(VAR)
+        \n1 Dose
+    </string>
+    <string name="VaricellaDesc">
+    \n12-15 months -1st dose
+</string>
+
+    //Hepatitis A
+
+    <string name="HepatitisA">Hepatitis A
+        \n2 Dose
+    </string>
+    <string name="HepatitisADesc">
+    \n12-23months -2 dose(Minimum Interval of 6 months)
+    </string>
+
+    //Meningococcal
+
+    <string name="Meningococcal">Meningococcal(MenACWY-D,MenACWY-CRM,MenACWY-TT)
+        \n2 Dose
+    </string>
+    <string name="MeningococcalDesc">
+    \n11-12 years- 1st dose
+    \n16 years - 2nd dose
+
+</string>
+
+    //Meningococcal B
+
+    <string name="MeningococcalB">Meningococcal B(MenB-4C, MenB-FHbp)
+        \n3 Dose
+    </string>
+    <string name="MeningococcalBDesc">
+       \n16-23 years- 1st dose and 2-dose series at least 6 months apart (if dose 2 is administered earlier than 6 months, administer a 3rd dose at least 4 months after dose 2)
+
+</string>
+
+    //Pneumococcal polysaccharide
+
+    <string name="pneumococcalpolysaccharide">pneumococcal polysaccharide (PPSV23)
+        \nCatch up vaccine
+    </string>
+    <string name="pneumococcalpolysaccharideDesc">
+    \n24-59 months - 1 dose (First complete PCV series)
+</string>
+
+    //Dengue
+
+    <string name="Dengue">Dengue (DEN4CYD)
+        \n3 Dose
+    </string>
+    <string name="DengueDesc">
+        \nbirth - 1st dose
+        \n6th month- 2nd dose
+        \n12th month -3rd dose
+        \n9-16 years living in areas with endemic dengue AND have laboratory confirmation of previous dengue infection
+</string>
+    <string name="title_activity_settings">SettingsActivity</string>
+
+    <!-- Preference Titles -->
+    <string name="messages_header">Messages</string>
+    <string name="sync_header">Sync</string>
+
+    <!-- Messages Preferences -->
+    <string name="signature_title">Your signature</string>
+    <string name="reply_title">Default reply action</string>
+
+    <!-- Sync Preferences -->
+    <string name="sync_title">Sync email periodically</string>
+    <string name="attachment_title">Download incoming attachments</string>
+    <string name="attachment_summary_on">Automatically download attachments for incoming emails
+    </string>
+    <string name="attachment_summary_off">Only download attachments when manually requested</string>
+
+</resources>

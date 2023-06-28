@@ -1,0 +1,607 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".VaccineActivity">
+    <ScrollView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content">
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:orientation="vertical">
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:id="@+id/detailName"
+            android:layout_marginTop="14dp"
+            android:text="VACCINE DETAILS"
+            android:textSize="24sp"
+            android:textColor="@color/lavender"
+            android:textStyle="bold"
+            android:layout_gravity="center"/>
+
+        <androidx.cardview.widget.CardView
+            android:layout_width="380dp"
+            android:layout_height="200dp"
+            android:id="@+id/cardImage"
+            android:layout_marginTop="10dp"
+            android:layout_gravity="center"
+            app:cardCornerRadius="20dp"
+            app:cardElevation="8dp">
+
+            <ImageView
+                android:layout_width="380dp"
+                android:layout_height="200dp"
+                android:id="@+id/detailImage"
+                android:layout_marginTop="10dp"
+                android:layout_gravity="center"
+                android:src="@drawable/des_img"
+                android:scaleType="centerCrop"/>
+
+        </androidx.cardview.widget.CardView>
+
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="Vaccine Name"
+            android:textColor="@color/lavender"
+            android:textStyle="bold"
+            android:padding="10dp"
+            android:background="#FFF7F8FF"
+            android:layout_marginTop="20dp"
+            android:textSize="18sp"/>
+
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="@string/HepatitisB"
+            android:layout_marginStart="10dp"
+            android:textSize="16sp"
+            android:id="@+id/detailvaccine1"/>
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="Description"
+            android:textColor="@color/lavender"
+            android:textStyle="bold"
+            android:layout_marginStart="10dp"
+            android:layout_marginTop="20dp"
+            android:textSize="18sp"/>
+
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="@string/HepatitisBDesc"
+            android:layout_marginStart="10dp"
+            android:textSize="16sp"
+            android:id="@+id/detailDesc1"/>
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="Vaccine Name"
+            android:textColor="@color/lavender"
+            android:textStyle="bold"
+            android:padding="10dp"
+            android:background="#FFF7F8FF"
+            android:layout_marginTop="20dp"
+            android:textSize="18sp"/>
+
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="@string/Rotavirus"
+            android:layout_marginStart="10dp"
+            android:textSize="16sp"
+            android:id="@+id/detailvaccine2"/>
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="Description"
+            android:textColor="@color/lavender"
+            android:textStyle="bold"
+            android:layout_marginStart="10dp"
+            android:layout_marginTop="20dp"
+            android:textSize="18sp"/>
+
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="@string/RotavirusDesc"
+            android:layout_marginStart="10dp"
+            android:textSize="16sp"
+            android:id="@+id/detailDesc2"/>
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="Vaccine Name"
+            android:textColor="@color/lavender"
+            android:textStyle="bold"
+            android:padding="10dp"
+            android:background="#FFF7F8FF"
+            android:layout_marginTop="20dp"
+            android:textSize="18sp"/>
+
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="@string/Diphtheriatetanusacellularpertussis"
+            android:layout_marginStart="10dp"
+            android:textSize="16sp"
+            android:id="@+id/detailvaccine3"/>
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="Description"
+            android:textColor="@color/lavender"
+            android:textStyle="bold"
+            android:layout_marginStart="10dp"
+            android:layout_marginTop="20dp"
+            android:textSize="18sp"/>
+
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="@string/DiphtheriatetanusacellularpertussisDesc"
+            android:layout_marginStart="10dp"
+            android:textSize="16sp"
+            android:id="@+id/detailDesc3"/>
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="Vaccine Name"
+            android:textColor="@color/lavender"
+            android:textStyle="bold"
+            android:padding="10dp"
+            android:background="#FFF7F8FF"
+            android:layout_marginTop="20dp"
+            android:textSize="18sp"/>
+
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="@string/Haemophilusinfluenzaetypeb"
+            android:layout_marginStart="10dp"
+            android:textSize="16sp"
+            android:id="@+id/detailvaccine4"/>
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="Description"
+            android:textColor="@color/lavender"
+            android:textStyle="bold"
+            android:layout_marginStart="10dp"
+            android:layout_marginTop="20dp"
+            android:textSize="18sp"/>
+
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="@string/HaemophilusinfluenzaetypebDesc"
+            android:layout_marginStart="10dp"
+            android:textSize="16sp"
+            android:id="@+id/detailDesc4"/>
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="Vaccine Name"
+            android:textColor="@color/lavender"
+            android:textStyle="bold"
+            android:padding="10dp"
+            android:background="#FFF7F8FF"
+            android:layout_marginTop="20dp"
+            android:textSize="18sp"/>
+
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="@string/pneumococcalconjugate"
+            android:layout_marginStart="10dp"
+            android:textSize="16sp"
+            android:id="@+id/detailvaccine5"/>
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="Description"
+            android:textColor="@color/lavender"
+            android:textStyle="bold"
+            android:layout_marginStart="10dp"
+            android:layout_marginTop="20dp"
+            android:textSize="18sp"/>
+
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="@string/pneumococcalconjugateDesc"
+            android:layout_marginStart="10dp"
+            android:textSize="16sp"
+            android:id="@+id/detailDesc5"/>
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="Vaccine Name"
+            android:textColor="@color/lavender"
+            android:textStyle="bold"
+            android:padding="10dp"
+            android:background="#FFF7F8FF"
+            android:layout_marginTop="20dp"
+            android:textSize="18sp"/>
+
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="@string/Inactivatedpoliovirus"
+            android:layout_marginStart="10dp"
+            android:textSize="16sp"
+            android:id="@+id/detailvaccine6"/>
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="Description"
+            android:textColor="@color/lavender"
+            android:textStyle="bold"
+            android:layout_marginStart="10dp"
+            android:layout_marginTop="20dp"
+            android:textSize="18sp"/>
+
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="@string/InactivatedpoliovirusDesc"
+            android:layout_marginStart="10dp"
+            android:textSize="16sp"
+            android:id="@+id/detailDesc6"/>
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="Vaccine Name"
+            android:textColor="@color/lavender"
+            android:textStyle="bold"
+            android:padding="10dp"
+            android:background="#FFF7F8FF"
+            android:layout_marginTop="20dp"
+            android:textSize="18sp"/>
+
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="@string/COVID19"
+            android:layout_marginStart="10dp"
+            android:textSize="16sp"
+            android:id="@+id/detailvaccine7"/>
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="Description"
+            android:textColor="@color/lavender"
+            android:textStyle="bold"
+            android:layout_marginStart="10dp"
+            android:layout_marginTop="20dp"
+            android:textSize="18sp"/>
+
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="@string/COVID19Desc"
+            android:layout_marginStart="10dp"
+            android:textSize="16sp"
+            android:id="@+id/detailDesc7"/>
+
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="Vaccine Name"
+            android:textColor="@color/lavender"
+            android:textStyle="bold"
+            android:padding="10dp"
+            android:background="#FFF7F8FF"
+            android:layout_marginTop="20dp"
+            android:textSize="18sp"/>
+
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="@string/Influenza"
+            android:layout_marginStart="10dp"
+            android:textSize="16sp"
+            android:id="@+id/detailvaccine8"/>
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="Description"
+            android:textColor="@color/lavender"
+            android:textStyle="bold"
+            android:layout_marginStart="10dp"
+            android:layout_marginTop="20dp"
+            android:textSize="18sp"/>
+
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="@string/InfluenzaDesc"
+            android:layout_marginStart="10dp"
+            android:textSize="16sp"
+            android:id="@+id/detailDesc8"/>
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="Vaccine Name"
+            android:textColor="@color/lavender"
+            android:textStyle="bold"
+            android:padding="10dp"
+            android:background="#FFF7F8FF"
+            android:layout_marginTop="20dp"
+            android:textSize="18sp"/>
+
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="@string/Measlesmumpsrubella"
+            android:layout_marginStart="10dp"
+            android:textSize="16sp"
+            android:id="@+id/detailvaccine9"/>
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="Description"
+            android:textColor="@color/lavender"
+            android:textStyle="bold"
+            android:layout_marginStart="10dp"
+            android:layout_marginTop="20dp"
+            android:textSize="18sp"/>
+
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="@string/MeaslesmumpsrubellaDesc"
+            android:layout_marginStart="10dp"
+            android:textSize="16sp"
+            android:id="@+id/detailDesc9"/>
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="Vaccine Name"
+            android:textColor="@color/lavender"
+            android:textStyle="bold"
+            android:padding="10dp"
+            android:background="#FFF7F8FF"
+            android:layout_marginTop="20dp"
+            android:textSize="18sp"/>
+
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="@string/Varicella"
+            android:layout_marginStart="10dp"
+            android:textSize="16sp"
+            android:id="@+id/detailvaccine10"/>
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="Description"
+            android:textColor="@color/lavender"
+            android:textStyle="bold"
+            android:layout_marginStart="10dp"
+            android:layout_marginTop="20dp"
+            android:textSize="18sp"/>
+
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="@string/VaricellaDesc"
+            android:layout_marginStart="10dp"
+            android:textSize="16sp"
+            android:id="@+id/detailDesc10"/>
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="Vaccine Name"
+            android:textColor="@color/lavender"
+            android:textStyle="bold"
+            android:padding="10dp"
+            android:background="#FFF7F8FF"
+            android:layout_marginTop="20dp"
+            android:textSize="18sp"/>
+
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="@string/HepatitisA"
+            android:layout_marginStart="10dp"
+            android:textSize="16sp"
+            android:id="@+id/detailvaccine11"/>
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="Description"
+            android:textColor="@color/lavender"
+            android:textStyle="bold"
+            android:layout_marginStart="10dp"
+            android:layout_marginTop="20dp"
+            android:textSize="18sp"/>
+
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="@string/HepatitisADesc"
+            android:layout_marginStart="10dp"
+            android:textSize="16sp"
+            android:id="@+id/detailDesc11"/>
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="Vaccine Name"
+            android:textColor="@color/lavender"
+            android:textStyle="bold"
+            android:padding="10dp"
+            android:background="#FFF7F8FF"
+            android:layout_marginTop="20dp"
+            android:textSize="18sp"/>
+
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="@string/Meningococcal"
+            android:layout_marginStart="10dp"
+            android:textSize="16sp"
+            android:id="@+id/detailvaccine12"/>
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="Description"
+            android:textColor="@color/lavender"
+            android:textStyle="bold"
+            android:layout_marginStart="10dp"
+            android:layout_marginTop="20dp"
+            android:textSize="18sp"/>
+
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="@string/MeningococcalDesc"
+            android:layout_marginStart="10dp"
+            android:textSize="16sp"
+            android:id="@+id/detailDesc12"/>
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="Vaccine Name"
+            android:textColor="@color/lavender"
+            android:textStyle="bold"
+            android:padding="10dp"
+            android:background="#FFF7F8FF"
+            android:layout_marginTop="20dp"
+            android:textSize="18sp"/>
+
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="@string/MeningococcalB"
+            android:layout_marginStart="10dp"
+            android:textSize="16sp"
+            android:id="@+id/detailvaccine13"/>
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="Description"
+            android:textColor="@color/lavender"
+            android:textStyle="bold"
+            android:layout_marginStart="10dp"
+            android:layout_marginTop="20dp"
+            android:textSize="18sp"/>
+
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="@string/MeningococcalBDesc"
+            android:layout_marginStart="10dp"
+            android:textSize="16sp"
+            android:id="@+id/detailDesc13"/>
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="Vaccine Name"
+            android:textColor="@color/lavender"
+            android:textStyle="bold"
+            android:padding="10dp"
+            android:background="#FFF7F8FF"
+            android:layout_marginTop="20dp"
+            android:textSize="18sp"/>
+
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="@string/pneumococcalpolysaccharide"
+            android:layout_marginStart="10dp"
+            android:textSize="16sp"
+            android:id="@+id/detailvaccine14"/>
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="Description"
+            android:textColor="@color/lavender"
+            android:textStyle="bold"
+            android:layout_marginStart="10dp"
+            android:layout_marginTop="20dp"
+            android:textSize="18sp"/>
+
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="@string/pneumococcalpolysaccharideDesc"
+            android:layout_marginStart="10dp"
+            android:textSize="16sp"
+            android:id="@+id/detailDesc14"/>
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="Vaccine Name"
+            android:textColor="@color/lavender"
+            android:textStyle="bold"
+            android:padding="10dp"
+            android:background="#FFF7F8FF"
+            android:layout_marginTop="20dp"
+            android:textSize="18sp"/>
+
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="@string/Dengue"
+            android:layout_marginStart="10dp"
+            android:textSize="16sp"
+            android:id="@+id/detailvaccine15"/>
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="Description"
+            android:textColor="@color/lavender"
+            android:textStyle="bold"
+            android:layout_marginStart="10dp"
+            android:layout_marginTop="20dp"
+            android:textSize="18sp"/>
+
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="@string/DengueDesc"
+            android:layout_marginBottom="150dp"
+            android:layout_marginStart="10dp"
+            android:textSize="16sp"
+            android:id="@+id/detailDesc15"/>
+    </LinearLayout>
+    </ScrollView>
+    <com.google.android.material.bottomnavigation.BottomNavigationView
+        android:id="@+id/bottomNavigation"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_alignParentBottom="true"
+        android:layout_marginBottom="30dp"
+        android:layout_marginEnd="30dp"
+        android:layout_marginStart="30dp"
+        android:layout_marginTop="30dp"
+        android:background="@drawable/bottom_background"
+        android:elevation="2dp"
+        app:itemIconSize="30dp"
+        app:itemIconTint="@drawable/item_selector"
+        app:itemRippleColor="@android:color/transparent"
+        app:labelVisibilityMode="unlabeled"
+        app:menu="@menu/bottom_menu" />
+</RelativeLayout>

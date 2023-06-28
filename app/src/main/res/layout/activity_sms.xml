@@ -1,0 +1,129 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".SmsActivity">
+    <ScrollView
+        android:layout_width="match_parent"
+        android:layout_height="match_parent">
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="vertical">
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="Vaccine SMS Remainder"
+        android:textSize="20sp"
+        android:textStyle="bold"
+        android:background="#FFC6CCFF"
+        android:gravity="center_horizontal"
+        android:padding="15dp" />
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="Subscribe for SMS Remainder"
+        android:textSize="15dp"
+        android:textStyle="bold"
+        android:background="#FFF7F8FF"
+        android:gravity="center_horizontal"
+        android:padding="10dp"/>
+
+        <ImageView
+            android:layout_width="200dp"
+            android:layout_height="180dp"
+            android:layout_gravity="center_horizontal"
+            android:src="@drawable/message" />
+
+        <TextView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="Send SMS to: (566778)"
+        android:textSize="15dp"
+        android:textStyle="bold"
+        android:padding="20dp"/>
+    <EditText
+        android:id="@+id/smsNo"
+        android:layout_width="match_parent"
+        android:layout_height="50dp"
+        android:background="@drawable/custom_edittext"
+        android:padding="8dp"
+        android:drawableLeft="@drawable/baseline_person_pin_24"
+        android:drawablePadding="8dp"
+        android:textColor="@color/black"
+        android:textSize="15dp"
+        android:text="9840091253"
+        android:inputType="none"
+        android:enabled="false"
+        android:layout_marginLeft="30dp"
+        android:layout_marginRight="30dp"/>
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="Message:"
+            android:textSize="15dp"
+            android:textStyle="bold"
+            android:padding="20dp"/>
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="Immunize [space] [Baby’s first name] [space] [Baby’s date of birth]"
+            android:textSize="15dp"
+            android:textStyle="bold"
+            android:paddingLeft="20dp"
+            android:paddingBottom="20dp"/>
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="Example : Immunize Rekha 14-11-2022"
+            android:textSize="15dp"
+            android:textStyle="bold"
+            android:paddingLeft="20dp"
+            android:layout_gravity="center"
+            android:paddingBottom="20dp"/>
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:background="#FFF7F8FF"
+            android:text="Page will be redirected to Message app, where you need to enter the message in the above format. 'Refer example if needed.'"
+            android:textSize="15dp"
+            android:textStyle="bold"
+            android:padding="10dp"
+            android:paddingLeft="20dp"
+            android:layout_gravity="center"
+            android:paddingBottom="20dp"/>
+
+        <Button
+            android:layout_width="250dp"
+            android:layout_height="wrap_content"
+            android:text="Send SMS"
+            android:id="@+id/submit_sms"
+            android:background="@drawable/button_background"
+            android:textColor="@color/white"
+            android:textSize="30dp"
+            android:layout_marginTop="20dp"
+            android:layout_marginBottom="100dp"
+            android:layout_gravity="center_horizontal"/>
+    </LinearLayout>
+    </ScrollView>
+    <com.google.android.material.bottomnavigation.BottomNavigationView
+        android:id="@+id/bottomNavigation"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_alignParentBottom="true"
+        android:layout_marginBottom="30dp"
+        android:layout_marginEnd="30dp"
+        android:layout_marginStart="30dp"
+        android:layout_marginTop="30dp"
+        android:background="@drawable/bottom_background"
+        android:elevation="2dp"
+        app:itemIconSize="30dp"
+        app:itemIconTint="@drawable/item_selector"
+        app:itemRippleColor="@android:color/transparent"
+        app:labelVisibilityMode="unlabeled"
+        app:menu="@menu/bottom_menu" />
+
+</RelativeLayout>
